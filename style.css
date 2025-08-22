@@ -1,0 +1,1005 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('./fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 0px 50px;
+    margin: 0 auto;
+    max-width: 1820px;
+    width: 100%;
+}
+
+.mainheader {
+    background-color: #e1f3fd;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo a p {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    color: #fed200;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+
+.navbar ul li a:hover {
+    color: #ebe8a9;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slider {
+    padding: 0px 325px;
+}
+
+.slidermain {
+    background-color: #e1f3fd;
+}
+
+.text {
+    color: #000000;
+    text-align: justify;
+    margin-top: 80px;
+    max-width: 600px;
+}
+
+.text1 h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Myriad Pro Regular';
+}
+
+.text1 h1 {
+    font-size: 111px;
+    font-weight: 400;
+    font-family: 'Myriad Pro Regular';
+}
+
+.text1 p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    text-align: initial;
+}
+
+.text1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.con {
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 35px 60px;
+    border-radius: 10px;
+    margin: 50px 0px 0px 0px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.quote {
+    padding: 10px;
+    background-color: #ffff00;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ourser {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.service h1 {
+    margin: 55px 0px 50px 0px;
+    font-size: 45px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service p {
+    margin-bottom: 130px;
+    font-size: 20px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.arch {
+    font-family: 'Raleway', sans-serif;
+    padding: 30px 30px 60px 30px;
+    border: #fff 0px none;
+    box-shadow: 0px 8px 16px 0px rgba(246, 204, 0, 0.9);
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 0 0 40px 0;
+    align-items: center;
+}
+
+
+
+.services_btn:hover .arch {
+    box-shadow: 0px 8px 16px 0px rgba(225, 243, 254, 0.9);
+}
+
+
+.services_btn:hover .services_see p {
+    background-color: rgba(225, 243, 254, 0.9);
+    color: #000;
+}
+
+.arch h3 {
+    align-items: center;
+    display: inline-block;
+    color: #000000;
+    padding-left: 30px;
+    font-family: 600;
+}
+
+.arch p {
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+}
+
+.services_see {
+    display: flex;
+    justify-content: center;
+}
+
+.services_see p {
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    border: #fff 0px none;
+    border-radius: 15px;
+    background-color: #ffff00;
+}
+
+.about {
+    background-color: #e1f3fd;
+}
+
+.company {
+    display: flex;
+    padding: 235px 100px;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-com h1 {
+    font-weight: 600;
+}
+
+.about-com p {
+    max-width: 500px;
+    padding: 80px 0px 60px 0px;
+
+}
+
+.abmore {
+    background-color: #ffff00;
+    padding: 13px;
+    border-radius: 15px;
+    border: 0px #ffffff none;
+}
+
+.team {
+    background-color: #fff;
+}
+
+.our-team {
+    padding: 50px 325px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.our-team h1 {
+    font-weight: 600;
+}
+
+.our-team p {
+    padding: 45px 0px 50px 0px;
+}
+
+.pimgs {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    padding: 0px 0px 100px 0px;
+}
+
+.pimgs h3 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pimgs h4 {
+    color: #ffff00;
+    text-align: center;
+}
+
+.testimonal {
+    background-color: #e1f3fd;
+    padding: 123px 342px;
+}
+
+.testimonal h1 {
+    margin-bottom: 80px;
+    text-align: center;
+    font-family: 'Myriad Pro Regular';
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    margin: 33px;
+    justify-content: center;
+}
+
+.dots img {
+    margin-left: 10px;
+}
+
+.p-img {
+    position: relative;
+    border: #000 solid 10px;
+    border-radius: 50%;
+}
+
+.arrow {
+    top: 156em;
+    position: absolute;
+    right: 64%;
+}
+
+.comments p {
+    padding: 41px 45px 45px 22px;
+    margin-left: 70px;
+    width: 322px;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.comm-quotes {
+    position: absolute;
+    right: 37em;
+    top: 157em;
+}
+
+.request h1 {
+    font-family: 'Myriad Pro Regular';
+}
+
+.formm {
+    text-align: center;
+    padding: 180px 400px;
+}
+
+.request {
+    padding: 0px 0px 40px 0px;
+}
+
+.formm input {
+    width: 250px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+textarea {
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.send {
+    background-color: #ffff00;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: 0px #ffffff none;
+}
+
+.footer {
+    background-color: #2f2f30;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.alldit {
+    margin: 75px 120px;
+    max-width: 392px;
+}
+
+.alldit p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+.loc,
+.call,
+.mail {
+    display: flex;
+    margin: 0px 0px 45px 0px;
+}
+
+.loc a,
+.call a,
+.mail a {
+    text-decoration: none;
+}
+
+.loc p,
+.call p,
+.mail p {
+    margin: 5px 25px;
+    color: #fff;
+}
+
+.news input {
+    margin: 0px;
+    border: none;
+}
+
+.news a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.news h3 {
+    padding: 0px 0px 20px 0px;
+}
+
+.sub {
+    background-color: #ffff00;
+    padding: 20px 20px;
+    border: none;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.map {
+    margin: 75px 0px 75px 0px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+/* Media Query At 320px */
+
+@media only screen and (min-width: 320px) {
+
+    .mainheader {
+        display: none;
+    }
+
+    .container {
+        padding: 0px 20px
+    }
+
+    .slider {
+        padding: 0px 0px;
+    }
+
+    .mobile-header {
+        background-color: #e1f3fd;
+    }
+
+    i.fa-solid.fa-bars {
+        color: #000;
+    }
+
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .navbar-main a p {
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        ;
+        color: #ffff00;
+        font-weight: 400;
+    }
+
+    .mob-navbar ul {
+        display: none;
+    }
+
+    .mob-navbar ul li {
+        list-style: none;
+        font-size: 16px;
+        color: #000;
+        padding-bottom: 6px;
+        padding-left: 6px;
+        background-color: #e1f3fd;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .mob-navbar ul li:hover {
+        background-color: #fff;
+
+    }
+
+    form {
+        padding: 0px 5px;
+    }
+
+    .search {
+        padding-bottom: 6px;
+        width: 100%;
+    }
+
+    .mob-navbar ul a {
+        text-decoration: none;
+    }
+
+    .text1 {
+        display: grid;
+    }
+
+    .text1 h3 {
+        font-size: 20px;
+    }
+
+    .text1 h1 {
+        font-size: 50px;
+    }
+
+    .text1 p {
+        font-size: 13px;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .img1 img {
+        width: 100%;
+    }
+
+    .con {
+        padding: 10px;
+        margin: 11px 0px 10px 0px;
+    }
+
+    .quote {
+        padding: 10px;
+    }
+
+    .service h1 {
+        margin: 40px 0px 10px 0px;
+    }
+
+    .service p {
+        font-size: 13px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .three {
+        margin-bottom: 50px;
+        display: grid;
+        gap: 30px;
+    }
+
+    .arch h3 {
+        padding-left: 10px;
+    }
+
+    .arch {
+        padding: 30px 0px 60px 0px;
+    }
+
+    .company {
+        display: grid;
+        padding: 51px 0px;
+    }
+
+    .about-com h3 {
+        font-size: 20px;
+    }
+
+    .about-com p {
+        font-size: 17px;
+        padding: 20px 0px 30px 0px;
+    }
+
+    .img2 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .our-team {
+        padding: 30px 0px;
+    }
+
+    .our-team p {
+        padding: 15px 0px;
+    }
+
+    .pimgs {
+        display: grid;
+        gap: 0px;
+        padding: 0px 0px 30px 0px;
+        justify-content: center;
+    }
+
+    .testimonal {
+        background-color: #e1f3fd;
+        padding: 123px 0px;
+    }
+
+    .comments {
+        display: grid;
+    }
+
+    /* .arrow {
+        top: 319em;
+        right: 32%;
+    } */
+
+    .comments p {
+        padding: 41px 45px 45px 22px;
+        margin-left: 0px;
+        width: 240px;
+    }
+
+    /* .comm-quotes {
+        right: 1em;
+        top: 330em;
+    } */
+
+    .request {
+        padding: 0px 0px 20px 0px;
+    }
+
+    .formm {
+        padding: 90px 0px;
+    }
+
+    .formm input {
+        width: 215px;
+    }
+
+    input {
+        margin: 10px 0px;
+    }
+
+    textarea {
+        margin: 20px 0px;
+        border: 2px solid;
+    }
+
+    .alldit {
+        margin: 23px 0px;
+    }
+
+    .detail {
+        display: grid;
+    }
+
+    .loc,
+    .call,
+    .mail {
+        margin: 0px 0px 33px 0px;
+    }
+
+    .loc h3,
+    .call h3,
+    .mail h3 {
+        font-size: 14px;
+    }
+
+    .news input {
+        width: 100%;
+        height: 42px;
+    }
+
+    .sub {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .map {
+        margin-top: 10px;
+    }
+
+    .map img {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+
+    .text1 h1 {
+        font-size: 30px;
+    }
+
+    .text1 h3 {
+        font-size: 30px;
+    }
+
+    .about-com p {
+        font-size: 16px;
+    }
+
+    .loc h3,
+    .call h3,
+    .mail h3 {
+        font-size: 20px;
+    }
+
+    .our-team p {
+        font-size: 17px;
+    }
+
+    /* .arrow {
+        top: 313em;
+        right: 42%;
+    } */
+
+    /* .comm-quotes {
+        right: 4em;
+        top: 324em;
+    } */
+}
+
+@media only screen and (min-width: 425px) {
+
+    .our-team p {
+        font-size: 20px;
+    }
+
+    .request h1 {
+        font: size 27px;
+    }
+
+    /* .arrow {
+        right: 49%;
+    } */
+
+    /* .comm-quotes {
+        right: 7em;
+    } */
+
+}
+
+@media only screen and (min-width: 768px) {
+    .text1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 17px;
+    }
+
+    .service p {
+        font-size: 30px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .arch p {
+        font-size: 21px;
+    }
+
+    .arch h3 {
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    .about-com {
+        text-align: center;
+    }
+
+    .company {
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .arrow {
+        right: 449px;
+        top: 330.5em;
+    } */
+
+    .comments p {
+        margin-left: 34px;
+        width: 320px;
+    }
+
+    .p-img {
+        z-index: 1;
+    }
+
+    /* .comm-quotes {
+        right: 6em;
+        top: 331em;
+    } */
+
+    .alldit {
+        margin: 23px 0px 0px 162px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .mainheader {
+        display: block;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .slider {
+        padding: 0px 50px;
+    }
+
+    .text1 {
+        display: flex;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    .service p {
+        font-size: 18px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .arch h3 {
+        font-size: 18px;
+    }
+
+    .arch p {
+        font-size: 18px;
+    }
+
+    .three {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .company {
+        display: flex;
+    }
+
+    .about-com {
+        text-align: left;
+    }
+
+    .profile-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pimgs {
+        display: flex;
+    }
+
+    .pimgs img {
+        width: 100%;
+    }
+
+    .alldit {
+        margin: 23px 0px;
+    }
+
+    .detail {
+        display: flex;
+    }
+
+    .sub {
+        width: 38%;
+    }
+
+    .newsletterarea {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .text1 {
+        justify-content: space-between;
+    }
+
+    .text h1 {
+        font-size: 40px
+    }
+
+    .text h3 {
+        font-size: 33px;
+    }
+
+    .text p {
+        font-size: 21px;
+    }
+
+    .slider {
+        padding: 0px 168px;
+    }
+
+    .service h1 {
+        font-size: 40px;
+    }
+
+    .service p {
+        font-size: 20px;
+    }
+
+    .three {
+        justify-content: space-between;
+    }
+
+    .arch p {
+        font-size: 24px;
+    }
+
+    .company {
+        justify-content: space-between;
+    }
+
+    .about-com p {
+        font-size: 19px;
+    }
+
+    .pimgs {
+        justify-content: space-between;
+    }
+
+    /* .arrow {
+        right: 754px;
+        top: 144.5em;
+    } */
+
+    /* .comm-quotes {
+        right: 25em;
+        top: 146em;
+    } */
+
+}
+
+@media only screen and (min-width: 1440px) {
+    /* .arrow {
+        right: 784px;
+        top: 150.5em;
+    }
+
+    .comm-quotes {
+        right: 28em;
+        top: 152em;
+    } */
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .text1 h1 {
+        font-size: 111px;
+    }
+
+    .slider {
+        padding: 0px 65px 0px 325px;
+    }
+
+    .con {
+        padding: 35px 60px;
+    }
+
+    .quote {
+        padding: 35px 60px;
+    }
+
+    .about-com p {
+        font-size: 20px;
+    }
+
+    input {
+        height: 60px;
+    }
+
+    /* .arrow {
+        right: 1033px;
+        top: 156.5em;
+    }
+
+    .comm-quotes {
+        right: 42em;
+        top: 159em;
+    } */
+}
